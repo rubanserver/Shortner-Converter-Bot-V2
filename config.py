@@ -7,19 +7,19 @@ load_dotenv()
 
 
 # Mandatory variables for the bot to start
-API_ID = int(os.getenv("API_ID", "Your Api Id"))
-API_HASH = os.environ.get("API_HASH", "Your Api Hash")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "Bot Token")
-ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("Owner Id")] if os.environ.get("ADMINS") else []
+API_ID = int(os.getenv("API_ID", "9840531"))
+API_HASH = os.environ.get("API_HASH", "2ac10377616df23907e134df14bdf08b")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6017164074:AAFecePjAEJ9HrWUf3vR5ajIXk4UAbRERMI")
+ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("960432019")] if os.environ.get("ADMINS") else []
 ADMIN = ADMINS
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "Db Name")
-DATABASE_URL = os.getenv("DATABASE_URL", "Monfo url") 
-OWNER_ID =  int(os.environ.get("OWNER_ID", "Owner Id")) 
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "bynkurl")
+DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://clientstamil4k:ruban9124@cluster0.7cwdmdt.mongodb.net/?retryWrites=true&w=majority") 
+OWNER_ID =  int(os.environ.get("OWNER_ID", "960432019")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
-ADMINS.append(Id Owned Id)
+ADMINS.append(6094386527)
 #  Optionnal variables
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "Logs Channels Id")) 
-UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "Updates Channel User name Without @") # For Force Subscription
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001871123649")) 
+UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "tamizhmasters_official") # For Force Subscription
 BROADCAST_AS_COPY = os.environ.get('BROADCAST_AS_COPY', "True") # true if forward should be avoided
-WELCOME_IMAGE = os.environ.get("WELCOME_IMAGE", '') # image when someone hit /start # image when someone hit /start
+WELCOME_IMAGE = os.environ.get("WELCOME_IMAGE", 'https://graph.org/file/2d88147b5a2bedc4fd35b.jpg') # image when someone hit /start # image when someone hit /start
 LINK_BYPASS = "False"
